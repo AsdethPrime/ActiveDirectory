@@ -1,0 +1,17 @@
+User mode apps => secure32.dll
+Credential UI => credUI.dll
+Winlogon => winlogon.ext and secure32.dll
+Kernel mode app => ksecdd.dll
+
+LSA (Local Security Authority )
+----------------------------------
+LSA Server Service => lsasrv.dll
+Negotitate => spnego.dll
+CredSSP => credssp.dll and wdigest.dll
+TLS/SSL => schannel.dll
+Negotiate Extensions => negoexts.dll
+NTML => msv1_0.dll
+Kerberos => kerberos.dll
+PKU2U => pku2u.dll
+Netlogon => netlogon.dll
+Security Account Manager (SAM)
